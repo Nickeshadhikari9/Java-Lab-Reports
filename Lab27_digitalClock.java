@@ -13,10 +13,7 @@ public class Lab27_digitalClock{
         JLabel clockLabel = new JLabel();
         clockLabel.setFont(new Font("Arial", Font.PLAIN, 24));
         frame.add(clockLabel);
-
         frame.setVisible(true);
-
-        // Create a Timer to update the clock every second
         Timer timer = new Timer(1000, e -> {
             SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss a");
             Date now = new Date();
