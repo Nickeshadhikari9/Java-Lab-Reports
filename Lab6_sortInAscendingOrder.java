@@ -5,7 +5,6 @@ public class Lab6_sortInAscendingOrder {
         System.out.println("Enter the size of array:");
         int size=scan.nextInt();
         int array[]=new int[size];
-        int smallestArray[]=new int[size];
         System.out.println("Enter "+size+" elements of array:");
         for(int i=0;i<size;i++){
             array[i]=scan.nextInt();
@@ -21,7 +20,7 @@ public class Lab6_sortInAscendingOrder {
         }
         System.out.println("Elements of array in Ascending order:");
         for(int i=0;i<size;i++){
-            System.out.println(array[i]+" ");
+            System.out.print(array[i]+" ");
         }
 
     }

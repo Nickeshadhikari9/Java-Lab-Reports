@@ -13,16 +13,13 @@ public class Lab28_factorialUsing_Swing extends JFrame {
         setSize(300, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
-
         inputField = new JTextField(10);
         calculateButton = new JButton("Calculate");
         resultLabel = new JLabel("Factorial: ");
-
         add(new JLabel("Enter a number: "));
         add(inputField);
         add(calculateButton);
         add(resultLabel);
-
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -39,7 +36,6 @@ public class Lab28_factorialUsing_Swing extends JFrame {
             for (int i = 1; i <= n; i++) {
                 factorial *= i;
             }
-
             resultLabel.setText("Factorial: " + factorial);
         } catch (NumberFormatException ex) {
             resultLabel.setText("Invalid input");
