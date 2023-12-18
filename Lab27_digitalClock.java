@@ -3,7 +3,7 @@ import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Lab27_digitalClock{
+public class Lab27_digitalClock {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Digital Clock");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -23,4 +23,3 @@ public class Lab27_digitalClock{
         timer.start();
     }
 }
-

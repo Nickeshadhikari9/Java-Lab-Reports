@@ -1,0 +1,2 @@
+This is a Lab Report file.
+Java is a Programming Language.
