@@ -6,7 +6,7 @@ public class Lab29_DisplayImage extends Applet {
     private Image image;
 
     public void init() {
-        image = getImage(getCodeBase(), "myimage.jpg");
+        image = getImage(getCodeBase(), "nick.jpg");
     }
 
     public void paint(Graphics g) {
